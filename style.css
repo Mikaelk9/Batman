@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover{
+    color: #d21617;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}
+#banner{
+    background-image: url('https://valkirias.com.br/wp-content/uploads/2022/03/valkirias-the-batman-capa-1.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer{
+    width: 50%;
+
+}
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.description{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+    
+}
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;   
+}
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    opacity: 0.7;
+}
+.card:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
+.banner-1{
+    background-image: url('https://i.pinimg.com/736x/50/3e/d2/503ed291d1ffe85cef519c6e25ae35f2.jpg');
+}
+.banner-2{
+    background-image: url('https://rollingstone.com.br/media/uploads/zoe_kravitz_em_the_batman_foto_divulgacao.jpg');
+}
+.banner-3{
+background-image: url('https://preview.redd.it/l617izc155sb1.png?auto=webp&s=9f76d9a04ed15639f5fea3ee0c1d66f793aabfc4');
+}
+
+.cardababatman2{
+    background-image: url('https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/08/hipertextual-puedes-ver-primer-trailer-the-batman-4k-2020956533-scaled.jpg?fit=2560%2C1714&quality=70&strip=all&ssl=1');
+}
+.cardababatman3{
+    background-image: url('./Imagens/Screenshot_3.png');
+}
+.cardababatman4{
+    background-image: url('https://www.sueddeutsche.de/2024/04/23/cd88c4d4-a58c-4586-8d20-e30fad0bd3d7.jpeg?q=60&fm=jpeg&width=1000&rect=0%2C38%2C800%2C450');
+}
+.cardababatman5{
+    background-image: url('https://cultura.uol.com.br/upload/tvcultura/entretenimento/20241227162624_gf02wywxeaayk6g.jpg');
+}
+.cardababatman6{
+    background-image: url('https://cinemaweb.com.br/wp-content/uploads/2023/12/the-batman-robert-pattinson.jpg');
+}
+.cardabamulher1{
+    background-image: url('https://rollingstone.com.br/media/uploads/zoe_kravitz_em_the_batman_foto_divulgacao.jpg');
+}
+.cardabamulher2{
+    background-image: url('https://preview.redd.it/gy2en1wt3nm81.png?width=1080&crop=smart&auto=webp&s=8aadbb74c513a7f8f077dbce4b26e3019dcb2152');
+}
+.cardabamulher3{
+    background-image: url('https://midianinja.org/wp-content/uploads/2022/03/20220307-ovicio-the-batman-movie-selina-kyle-catwoman-zoe-kravitz.jpg');
+}
+.cardabamulher4{
+    background-image: url('https://ogimg.infoglobo.com.br/in/25422676-086-2d9/FT1086A/batman_ver22_xlg.jpg');
+}
+.cardabamulher5{
+    background-image: url('https://i0.wp.com/poltronanerd.com.br/wp-content/uploads/2022/03/poltrona-zoe-mulher-gato.jpg?fit=1920%2C1219&ssl=1');
+}
+.cardabamulher6{
+    background-image: url('https://static.wikia.nocookie.net/batman/images/a/ac/Catwoman_%28The_Batman_film%29.jpg/revision/latest?cb=20220730221439');
+}
+.cardabagordon1{
+    background-image: url('https://preview.redd.it/l617izc155sb1.png?auto=webp&s=9f76d9a04ed15639f5fea3ee0c1d66f793aabfc4');
+}
+.cardabagordon2{
+    background-image: url('https://ew.com/thmb/Z80RAVq2Yu7l7i2U635Oj8l2vRE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/The-Batman_2-667f8160ad5e4f20ad5aa703a7184a27.jpg');
+}
+.cardabagordon3{
+    background-image: url('https://rollingstone.com.br/media/uploads/jeffrey_wright_-_reproducao_hbo.jpg');
+}
+.cardabagordon4{
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/02/The-Batman-Jeffrey-Wright-Commissioner-Gordon-Challenge.jpg');
+}
+.cardabagordon5{
+    background-image: url('https://www.lowyat.net/wp-content/uploads/2019/09/Jeffrey-Wright.jpg');
+}
+.cardabagordon6{
+    background-image: url('https://t.ctcdn.com.br/zi1akcdhKrVr4dlZ7IY3ZBbkFxg=/640x360/smart/i360687.jpeg');
+}
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-ingresso{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url('https://images4.alphacoders.com/133/1337072.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.button-ingressos{
+    display: none;
+}
+
+.div-coment{
+    color: #fff;
+    width: 50%;
+    height: auto;
+    background-color: #d21617;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.foto-pessoa{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #d21617;
+    background-color: #fff;
+}
+.contato, .form-group, #contact-form{
+    background-color: #d21617;
+}
+.contato{
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.form-contato{
+    color: #fff;
+    background-color: #d21617;
+} 
+
+.input-contato{
+    color: #fff;
+    background-color: #d21617;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.botao-contato{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    color: #d21617;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .7s;
+}
+.botao-contato:hover{
+    color: #fff;
+    background-color: #000;
+}
+@media (max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    #banner{
+        background-position: 40%;
+    }
+    #trailer-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .trailer{
+        width: 100%;
+    }
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 200px;
+    }
+    .content-ingresso{
+        font-size: 50px;
+    }
+    .button-ingressos{
+        width: 200px;
+        height: 60px;
+        background-color: #000;
+        color: #fff;
+        padding: 8px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .8s;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        margin-top: 150px;
+    }
+   .button-ingressos:hover{
+    background-color: #fff;
+    color: #000;
+   }
+  .card{
+    opacity: 1;
+  }
+  .description{
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px){
+    .card-banner1:hover{
+        background-image: url(./Imagens/Screenshot_3.png);
+    }
+    .card-banner2:hover{
+        background-image: url('https://preview.redd.it/gy2en1wt3nm81.png?width=1080&crop=smart&auto=webp&s=8aadbb74c513a7f8f077dbce4b26e3019dcb2152');
+    }
+    .card-banner3:hover{
+        background-image: url('https://ew.com/thmb/Z80RAVq2Yu7l7i2U635Oj8l2vRE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/The-Batman_2-667f8160ad5e4f20ad5aa703a7184a27.jpg');
+    }
+    
+
+}
+@media (min-width: 929px){
+    .div-coment2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .div-coment{
+        margin: 20px;
+    }
+   
+}
